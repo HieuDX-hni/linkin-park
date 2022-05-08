@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.header1 {
+    font-family: gothamlight;
+    text-align: center;
+    letter-spacing: 8px;
+    font-weight: 400;
+    font-size: 34px;
+    word-spacing: 0px;
+    line-height: 42px;
+    padding-top: 75px;
+
+}
+
+.header {
+    padding: 50px 5%;
+}
+
+@media only screen and (max-width: 767px) {
+    .header1 {
+        padding-top: 55px;
+        font-size: 18.28px;
+        text-transform: uppercase;
+        letter-spacing: 0px;
+        line-height: 25px;
+    }
+}
+
+.content-1 {
+    padding: 0 5%;
+    color: #fff;
+}
+
+.desc-child li {
+    font-family: gothambook;
+    font-style: italic;
+    font-size: 17px;
+    line-height: 25.5px;
+    vertical-align: top;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.nochild {
+    font-family: gothambold;
+    font-size: 21px;
+    line-height: 31.5px;
+    vertical-align: top;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-style: unset;
+}
+
+.tieude {
+    font-family: 'gothambold';
+    font-size: 42px;
+    text-align: center;
+
+    line-height: 50px;
+    letter-spacing: 6px;
+    padding-top: 50px;
+}
+
+.noidung {
+    padding: 50px;
+
+}
+
+.pre-order-button {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.pre-order-button a {
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 40px;
+    font-family: gothambold;
+    text-transform: uppercase;
+    padding: 0 79px;
+    /* height: 61px; */
+    line-height: 61px;
+    text-decoration: none;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.hover-zoom :hover {
+    color: #636363;
+}
+
+.splash-banner-wrap-text {
+    text-align: center;
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: gothamlight;
+    padding: 43px 30px;
+    line-height: 28px;
+
+
+}
+/* card */
+.col {
+    padding: 0;
+    margin: 0;
+    border: none;
+    --bs-gutter-x: 0;
+}
+.card {
+    padding: 6% 10% 5%;
+  
+    border-radius: 0;
+    border: none;
+}
+.card01 {
+    background-color: #D9D9D9;;
+}
+.card02 {
+    background-color: #C7C7C7;
+}
+.card03 {
+    background-color: #C7C7C7;
+}
+.card04 {
+    background-color: #D9D9D9;
+}
+.card-title {
+    font-family: gothammedium;
+    font-size: 21px;
+    letter-spacing: 1px;
+    line-height: 26px;
+}
+.card-text {
+    font-family: gothambook;
+    font-size: 17px;
+    line-height: 30px;
+
+}
+.btn {
+    width: 150px;
+    margin-bottom: 15px;
+} .deluxe {
+    padding-top: 150px;
+}
+/* video */
+.bg-img {
+    position: relative;
+}
+.playvideo {
+    position: absolute;
+    top: 50%;
+    left: 48%;
+}
+.btn-gohome {
+    width: auto;
+}
+/* footter */
+.btn-floating {
+    width: 55px;
+    padding: unset;
+    line-height: 40px;
+}
+.logo-img {
+    text-align: center;
+}
+a :hover {
+    color: #fff;
+}
