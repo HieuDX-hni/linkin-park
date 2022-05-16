@@ -23,15 +23,7 @@
     padding: 50px 5%;
 }
 
-@media only screen and (max-width: 767px) {
-    .header1 {
-        padding-top: 55px;
-        font-size: 18.28px;
-        text-transform: uppercase;
-        letter-spacing: 0px;
-        line-height: 25px;
-    }
-}
+
 
 .content-1 {
     padding: 0 5%;
@@ -177,4 +169,19 @@
 }
 a :hover {
     color: #fff;
+}
+@media only screen and (max-width: 767px) {
+    .header1 {
+        padding-top: 55px;
+        font-size: 18.28px;
+        text-transform: uppercase;
+        letter-spacing: 0px;
+        line-height: 25px;
+    }
+    .tieude {
+        font-size: 25px;
+    }
+    .noidung {
+        padding: 0;
+    }
 }
